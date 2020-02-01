@@ -40,9 +40,9 @@ class Artist
      def genres
     genres = @songs.collect do |song|
       song.genre
-    end
+     end
     genres.uniq
-  end
+    end
 
   
 end 
